@@ -1,0 +1,11 @@
+ul {
+    li {
+        padding: 5px;
+        border: 1px solid;
+        margin: 3px;
+        cursor: pointer;
+        &.active {
+            background: gray;
+        }
+    }
+}
